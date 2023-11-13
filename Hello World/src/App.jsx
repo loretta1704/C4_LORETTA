@@ -1,17 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Component } from 'react'
 import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-<h1>Hello World</h1>
-<p>I am Loretta Owusu-Ansah, this is my first React application. </p>
-    </>
-  )
+class Profile extends Component{
+  render(){
+    return(
+      <>
+<h1>Loretta Owusu-Ansah</h1>
+<p><b>Educational background :</b>
+   Currently a Technician in a university and aslo Frontend Development at Azubi Africa,Tertiary:Bsc in Telecommunications Engineering ,Secondary education:General Science
+</p>
+<br></br>
+<p><b>Professional Background:</b>
+Senior Laboratory Technician in Communications System and Networking at KNUST 
+</p>
+<br></br>
+<p><b>Skills:</b>Mathlab,CSS,HTML 5,JavaScript, Power BI,VMWare Workstation</p>
+      </>
+    )
+  }
 }
 
-export default App
+
+
+ 
+
+
+export default Profile
