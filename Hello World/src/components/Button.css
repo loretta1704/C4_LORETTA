@@ -1,0 +1,14 @@
+.custom-button {
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* No border */
+    margin-right: 10px; /* Margin between buttons */
+  }
+  
+  .custom-button:last-child {
+    margin-right: 0; /* No margin for the last button */
+  }

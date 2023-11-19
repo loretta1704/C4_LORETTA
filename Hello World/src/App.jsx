@@ -1,6 +1,7 @@
-import { Component } from 'react'
+//import { Component } from 'react'
 import './App.css'
-class Profile extends Component{
+import Button from './components/Button';
+/*class Profile extends Component{
   render(){
     return(
       <>
@@ -17,11 +18,18 @@ Senior Laboratory Technician in Communications System and Networking at KNUST
       </>
     )
   }
+}*/
+
+//Assignmnet 3  
+function App () {
+  return (
+    <div className='App'>
+        <Button name="Login"/>
+        <Button name="Signin"/>
+      
+
+    </div>
+  )
 }
 
-
-
- 
-
-
-export default Profile
+export default App
